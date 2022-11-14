@@ -34,9 +34,8 @@ li {
 .main {
     grid-area: main;
     background-color: gray;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
@@ -45,7 +44,7 @@ li {
     grid-area: footer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 2rem;
     margin-top: auto;
 }
